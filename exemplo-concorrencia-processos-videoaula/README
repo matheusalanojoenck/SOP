@@ -1,0 +1,37 @@
+README
+
+Programas usados na aula online de 21/10/21
+
+conc1.c
+
+    Código com uma condição de disputa no acesso a n.
+        
+conc1a.c
+
+    Tenta garantir exclusão mútua usando variável do tipo lock. (Esta
+    solução é incorreta.)
+    
+conc1c.c
+
+    Garante exclusão mútua usando o algoritmo de alternância
+    obrigatória. (Esta solução é correta, embora tenha algumas
+    características indesejáveis.)
+
+conc4.c
+
+    Garante exclusão mútua usando um semáforo.
+
+sema1.c
+
+    Código concorrente que imprime as letras S, O, P em uma ordem
+    indeterminada
+              
+sema1a.c
+
+    Código que usa semáforos para garantir a sequência de execução de
+    modo a imprimir sempre "SOP"
+
+
+OBSERVAÇÃO: As soluções com semáforos (conc4.c e sema1-sol.c) emulam
+  as primitivas down() e up() adotadas pelo Tanenbaum usando semáforos
+  POSIX, que serão vistos na semana de 01 a 06/11
