@@ -1,0 +1,20 @@
+README
+
+Programas usados na aula online de 14/10/21
+
+busca-vet.c
+
+    Faz uma busca linear em um vetor de um elemento passado por linha
+    de comando.
+
+    Exemplo: ./busca-vet 5   # procura o elemento 5
+    
+busca-vet2.c
+
+    Adaptação de busca-vet.c para executar a busca em uma thread separada.
+    
+busca-vet3.c
+
+    Adaptação de busca-vet2.c para criar uma segunda thread que pesquisa
+    o vetor de trás para a frente.
+    
